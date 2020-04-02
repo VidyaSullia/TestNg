@@ -22,6 +22,7 @@ public class Sample3 {
 			WebElement e = driver.findElement(By.id("email"));
 			e.sendKeys(user);
 			System.out.println(e.getAttribute("value"));
+			System.out.println();
 		}
 		else if (b.equals("ff"))
 			 {
