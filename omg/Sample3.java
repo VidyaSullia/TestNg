@@ -10,10 +10,15 @@ public class Sample3 {
 
 	}
 
-	@Test
-
+@Test
 	public void bTest() {
 		System.out.println("B");
+
+	}
+  @Test
+  public void sTest() {
+		System.out.println("S");
+		System.out.println();
 
 	}
 
